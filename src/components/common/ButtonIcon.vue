@@ -18,7 +18,7 @@
 
 </script>
 <template>
-    <button class="rounded-full bg-transparent-5" :class="size">
+    <button class="rounded-full bg-transparent-5 hover:bg-transparent-10" :class="size">
         <v-icon :name="props.iconName" class="text-primary" />
     </button>
 </template>
